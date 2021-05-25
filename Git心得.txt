@@ -1,0 +1,69 @@
+﻿
+状态查询：
+	git status 告诉你有文件被修改过，用 git diff 可以查看修改内容（只可查看add未提交前的修改）。
+版本回退，切换：
+	回归历史，git log 可以查看提交历史，以便确定要回退到哪个版本。
+	重返未来，用 git reflog 查看命令历史，以便确定要回到未来的哪个版本。
+		回退： git reset --hard <commit_id>
+工作区和暂存区：
+	该文件夹即是工作区 隐藏目录.git即是版本库（repository）
+	文件往Git版本库里添加的时候，是分两步执行的：
+		第一步是用 git add 把文件添加进去，实际上就是把文件修改添加到暂存区；（提交全部： git add . ）
+		第二步是用 git commit -m "添加说明" 提交更改，实际上就是把暂存区的所有内容提交到当前分支（自动创建的 master 分支，包含一个一个指针 HEAD ）。
+撤销修改：
+	改错了东西并add到了暂存区可以使用 命令 git reset HEAD <file> 可以把暂存区的修改撤销掉（unstage），重新放回工作区(只是最新的内容)
+	最好使用 git reset --hard <commit_id> 进行版本回退
+删除文件：
+	命令：git rm <filename> -> git commit -m "(注释)"
+	找回： git checkout --<filename> （前提是已经被提交commit到版本库的文件，防止误删）
+	删除swap文件：rm -f （后缀.swap的文件名）
+				rm -rf .git  // 删除.git
+				git config --global core.autocrlf false //禁用自动转换
+链接远程库：
+	第1步：创建SSH Key。在用户主目录下，看看有没有.ssh目录，如果有，再看看这个目录下有没有id_rsa（私钥）和id_rsa.pub（公共秘钥）这两个文件，如果已经有了，可直接跳到下一步。如果没有，打开Shell（Windows下打开Git Bash），创建SSH Key： $ ssh-keygen -t rsa -C "youremail@example.com"
+	第2步：登录GitHub->setting->SHH and GPC keys->new SSH key
+		   添加SHH公共秘钥（进行操作的钥匙）		
+添加远程库：
+	要关联一个远程库，使用命令git remote add origin git@github.com:penta-cle/文件名.git；
+	关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
+	此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
+	GitHub中如果新建文件夹之后添加reademe.txt文件的话，本地上传会出现冲突，原因是因为commit历史不同，此时使用git pull origin master --allow-unrelated-histories进行拉取文件进行合并
+删除远程库：
+		 git remote rm origin
+远程库克隆：
+	在GitHub中创建一个文件夹之后 使用 clone 
+		命令：git clone git@github.com:penta-cle/文件名.git
+	查看远程库： git remote -v(详细信息)	
+分支（好处是各个分支之间可以进行修改互不干扰）：
+	查看分支：git branch
+	创建分支：git branch <name>
+	切换分支：git checkout <name>
+	创建+切换分支：git checkout -b <name>
+	合并某分支到当前分支：git merge <name>
+	删除分支：git branch -d <name>
+分支冲突的解决：
+	当创建一个分支之后 添加或修改的内容可能与 master 主分支上的内容不相同，此时如果提交之后 查看 status 会列出不相同的冲突项，
+	随后需要单独修改冲突点，进行合并，合并完成后使用命令： git branch -d <branch_name> 删除分支
+		ps: 用带参数的git log也可以看到分支的合并情况： git log --graph --pretty=oneline --abbrev-commit
+分支管理策略：
+	通常，合并分支时，如果可能，Git会用Fast forward模式（看不出来分支合并历史），但这种模式下，删除分支后，会丢掉分支信息。
+	如果要强制禁用Fast forward模式，Git就会在merge时生成一个新的commit，这样，从分支历史上就可以看出分支信息
+		--no-ff参数（普通模式，查看分支合并历史），表示禁用Fast forward： git merge --no-ff -m "merge with no-ff" dev
+		合并后，我们用 git log 看看分支历史： git log --graph --pretty=oneline --abbrev-commit
+bug分支修复：
+	当你在dev分支上正在进行一个新项目，而在你的master分支上出现了一个bug（101bug）此时你需要修复该分支上的bug。首先你需要使用命令：git stash 进行储藏正在进行的dev分支上的工作（此时dev工作已被隐藏）。随后切换到master分支（git checkout master），创建master临时修复分支（git checkout -b issue-101）修复完成后，切换到master分支，并完成合并(git merge --no-ff -m "merged bug fix 101" issue-101)，最后删除issue-101分支
+		恢复：一是用 git stash apply 恢复，但是恢复后，stash内容并不删除，你需要用 git stash drop 来删除；
+			 另一种方式是用 git stash pop ，恢复的同时把stash内容也删了。
+多人协作： 
+	在已将新的shh添加到GitHub中后
+	假设两人同时在dev分支上进行开发，当同伴对远程分支origin/dev提交修改之后，你也准备提交修改这时你需要先进行 git pull 操作将远程库中最新的文件下载到本地（如果 pull 操作失败，原因是没有指定本地dev分支与远程origin/dev分支的链接，根据提示，设置dev和origin/dev的链接： git branch --set-upstream-to=origin/<分支名> dev ），在本地进行 git merge 合并操作（有冲突时，解决冲突）随后重新 git push origin <分支名> 操作。 ps：建立本地分支和远程分支的关联，使用 git branch --set-upstream branch-name origin/branch-name	
+tag标签：
+		使用：
+			切换到需要的分支上使用： git tag <tag_name> (默认打在最新的commit上，如果要准确打到某个记录中首先查询：git log --pretty=oneline --abbrev-commit ，随后使用： git tag v0.9 <commit_id> )
+			查看标签（详细信息）： git tag （git show <tag_name>）
+				ps:创建带有说明的标签： git tag -a <tag_name> -m "说明信息" <commit_id>	
+		删除：git tag -d <tag_name>
+		推送（同步到远程库）：git push origin <tag_name>（--tags(推送本地全部标签)）
+			如果标签已经推送到远程：
+									1.删除本地： git tag -d <tag_name>
+									2.远程删除： git push origin :refs/tags/<tag_name>
