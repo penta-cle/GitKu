@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MyHtml.html</title>
+</head>
+<body>
+<canvas id="mycanvas" width="600px" height="600px"></canvas>
+</body>
+<script type="text/javascript">
+
+    var chessboradsize=14;//棋盘大小
+    var chess = document.getElementById("mycanvas");
+    var context = chess.getContext('2d');
+
+    function drawChessBoard(){//绘画
+        for(var i=0;i<chessboradsize+1;i++){
+            context.strokeStyle='gray';//可选区域
+            context.moveTo(15+i*30,15);//垂直方向画15根线，相距30px;
+            context.lineTo(15+i*30,15+30*chessboradsize);
+            context.stroke();
+            context.moveTo(15,15+i*30);//水平方向画15根线，相距30px;棋盘为14*14；
+            context.lineTo(15+30*chessboradsize,15+i*30);
+            context.stroke();
+        }
+    }
+    drawChessBoard();//绘制棋盘
+
+</script>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spider-flow.iml" filepath="$PROJECT_DIR$/spider-flow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-flow-api/spider-flow-api.iml" filepath="$PROJECT_DIR$/spider-flow-api/spider-flow-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-flow-core/spider-flow-core.iml" filepath="$PROJECT_DIR$/spider-flow-core/spider-flow-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spider-flow-web/spider-flow-web.iml" filepath="$PROJECT_DIR$/spider-flow-web/spider-flow-web.iml" />
+    </modules>
+  </component>
+</project>

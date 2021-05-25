@@ -1,0 +1,16 @@
+org\spiderflow\logback\SpiderFlowFileAppender.class
+org\spiderflow\model\SpiderWebSocketContext.class
+org\spiderflow\controller\SpiderFlowController.class
+org\spiderflow\controller\VariableController.class
+org\spiderflow\configuration\ResourcesConfiguration.class
+org\spiderflow\controller\FunctionController.class
+org\spiderflow\controller\SpiderRestController.class
+org\spiderflow\controller\TaskController.class
+org\spiderflow\SpiderApplication.class
+org\spiderflow\model\WebSocketEvent.class
+org\spiderflow\model\SpiderWebSocketContext$DebugInfo.class
+org\spiderflow\logback\SpiderFlowWebSocketAppender.class
+org\spiderflow\websocket\WebSocketEditorServer.class
+org\spiderflow\controller\FlowNoticeController.class
+org\spiderflow\configuration\WebSocketConfiguration.class
+org\spiderflow\controller\DataSourceController.class

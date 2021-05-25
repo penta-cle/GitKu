@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="512b3ff4-fd27-480a-b702-b6baec47893f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1sgkcpZYpWd1vo0Ry8bixHq4CYq" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SpiderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spider-flow-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.spiderflow.SpiderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="512b3ff4-fd27-480a-b702-b6baec47893f" name="Default Changelist" comment="" />
+      <created>1621301702143</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621301702143</updated>
+      <workItem from="1621301703306" duration="5785000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1879" height="351" key="GridCell.Tab.0.bottom" timestamp="1621305696353">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="351" key="GridCell.Tab.0.bottom/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621305696353" />
+    <state width="1879" height="351" key="GridCell.Tab.0.center" timestamp="1621305696351">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="351" key="GridCell.Tab.0.center/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621305696351" />
+    <state width="1879" height="351" key="GridCell.Tab.0.left" timestamp="1621305696351">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="351" key="GridCell.Tab.0.left/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621305696351" />
+    <state width="1879" height="351" key="GridCell.Tab.0.right" timestamp="1621305696351">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="351" key="GridCell.Tab.0.right/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621305696351" />
+    <state width="1879" height="351" key="GridCell.Tab.1.bottom" timestamp="1621305696354">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="351" key="GridCell.Tab.1.bottom/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621305696354" />
+    <state width="1879" height="351" key="GridCell.Tab.1.center" timestamp="1621305696354">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="351" key="GridCell.Tab.1.center/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621305696354" />
+    <state width="1879" height="351" key="GridCell.Tab.1.left" timestamp="1621305696354">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="351" key="GridCell.Tab.1.left/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621305696354" />
+    <state width="1879" height="351" key="GridCell.Tab.1.right" timestamp="1621305696354">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="351" key="GridCell.Tab.1.right/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621305696354" />
+    <state x="532" y="289" key="IDE.errors.dialog" timestamp="1621305694306">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="532" y="289" key="IDE.errors.dialog/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621305694306" />
+  </component>
+</project>

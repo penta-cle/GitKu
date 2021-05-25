@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c465007-1b14-4fb3-82e7-85874d156b1a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1shSGH8ymQ3fLQDy27E4FikEYXP" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../nd-labour-union/nd-labour-union" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.26320583" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\GitKu\paChongStudy01\src\main\resources" />
+      <recent name="G:\GitKu\paChongStudy01\src\main\java\com" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TalkTeacher">
+    <configuration name="TalkStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pentacle.chat.TalkStudent" />
+      <module name="paChongStudy01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TalkTeacher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pentacle.chat.TalkTeacher" />
+      <module name="paChongStudy01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TcpClientDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pentacle.jsoup.TcpClientDemo02" />
+      <module name="paChongStudy01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UdpReceiveDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pentacle.chat.UdpReceiveDemo01" />
+      <module name="paChongStudy01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UdpSenderDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pentacle.chat.UdpSenderDemo01" />
+      <module name="paChongStudy01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.p" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="paChongStudy01" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="METHOD_NAME" value="p" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TalkTeacher" />
+        <item itemvalue="Application.TalkStudent" />
+        <item itemvalue="Application.UdpSenderDemo01" />
+        <item itemvalue="Application.UdpReceiveDemo01" />
+        <item itemvalue="Application.TcpClientDemo02" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c465007-1b14-4fb3-82e7-85874d156b1a" name="Default Changelist" comment="" />
+      <created>1621323231768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621323231768</updated>
+      <workItem from="1621323233069" duration="47116000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="431" y="129" key="#Project_Structure" timestamp="1621323238108">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="431" y="129" key="#Project_Structure/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621323238108" />
+    <state x="744" y="270" key="#com.intellij.ide.util.MemberChooser" timestamp="1621909417248">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="744" y="270" key="#com.intellij.ide.util.MemberChooser/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621909417248" />
+    <state x="740" y="309" key="FileChooserDialogImpl" timestamp="1621477065429">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="740" y="309" key="FileChooserDialogImpl/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621477065429" />
+    <state width="1879" height="210" key="GridCell.Tab.0.bottom" timestamp="1621910719750">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="210" key="GridCell.Tab.0.bottom/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621910719750" />
+    <state width="1879" height="210" key="GridCell.Tab.0.center" timestamp="1621910719750">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="210" key="GridCell.Tab.0.center/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621910719750" />
+    <state width="1879" height="210" key="GridCell.Tab.0.left" timestamp="1621910719750">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="210" key="GridCell.Tab.0.left/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621910719750" />
+    <state width="1879" height="210" key="GridCell.Tab.0.right" timestamp="1621910719750">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="210" key="GridCell.Tab.0.right/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621910719750" />
+    <state width="1879" height="298" key="GridCell.Tab.1.bottom" timestamp="1621847912044">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="298" key="GridCell.Tab.1.bottom/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621847912044" />
+    <state width="1879" height="298" key="GridCell.Tab.1.center" timestamp="1621847912044">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="298" key="GridCell.Tab.1.center/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621847912044" />
+    <state width="1879" height="298" key="GridCell.Tab.1.left" timestamp="1621847912044">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="298" key="GridCell.Tab.1.left/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621847912044" />
+    <state width="1879" height="298" key="GridCell.Tab.1.right" timestamp="1621847912044">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="298" key="GridCell.Tab.1.right/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621847912044" />
+    <state x="500" y="289" key="IDE.errors.dialog" timestamp="1621477309779">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="500" y="289" key="IDE.errors.dialog/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621477309779" />
+    <state x="206" y="190" width="1271" height="712" key="SettingsEditor" timestamp="1621477066021">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="206" y="190" width="1271" height="712" key="SettingsEditor/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621477066021" />
+    <state width="968" height="533" key="XDebugger.FullValuePopup" timestamp="1621325634232">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="968" height="533" key="XDebugger.FullValuePopup/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621325634232" />
+    <state x="92" y="122" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1621328175087">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="92" y="122" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621328175087" />
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1621907854923">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621907854923" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Test.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pentacle/chat/TalkReceive.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
