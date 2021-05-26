@@ -23,6 +23,7 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -35,7 +36,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621937850484</updated>
-      <workItem from="1621937851776" duration="1279000" />
+      <workItem from="1621937851776" duration="5110000" />
     </task>
     <servers />
   </component>
@@ -43,6 +44,42 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621996042960">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="552" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621996042960" />
+    <state width="1879" height="278" key="GridCell.Tab.0.bottom" timestamp="1621995089474">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="278" key="GridCell.Tab.0.bottom/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621995089474" />
+    <state width="1879" height="278" key="GridCell.Tab.0.center" timestamp="1621995089474">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="278" key="GridCell.Tab.0.center/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621995089474" />
+    <state width="1879" height="278" key="GridCell.Tab.0.left" timestamp="1621995089474">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="278" key="GridCell.Tab.0.left/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621995089474" />
+    <state width="1879" height="278" key="GridCell.Tab.0.right" timestamp="1621995089474">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="278" key="GridCell.Tab.0.right/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621995089474" />
+    <state width="332" height="539" key="HiddenNamespacesPopup" timestamp="1621995604843">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="332" height="539" key="HiddenNamespacesPopup/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621995604843" />
+    <state x="849" y="430" width="671" height="356" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1621995611565">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="849" y="430" width="671" height="356" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621995611565" />
+    <state x="572" y="240" width="690" height="550" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1621995949698">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="572" y="240" width="690" height="550" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621995949698" />
+    <state x="561" y="129" key="new project wizard" timestamp="1621995130115">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="561" y="129" key="new project wizard/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1621995130115" />
     <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1621938026387">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
