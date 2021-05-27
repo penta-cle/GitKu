@@ -15,14 +15,14 @@ import java.io.Serializable;
  * Dept dept = new Dept();
  *      dept.setDeptNo(11).setDname("安全部").setDb_source('01')
  * **/
-public class dept implements Serializable { //Dept 实体类
+public class Dept implements Serializable { //Dept 实体类
 
     private Long deptno;
     private String dname;
     //这个数据存在哪个数据库的字段，微服务一个服务对应一个数据库，同一个信息可能存在不同的数据库，区分作用
     private String db_source;
 
-    public dept(String dname) {
+    public Dept(String dname) {
         this.dname = dname;
     }
 }
