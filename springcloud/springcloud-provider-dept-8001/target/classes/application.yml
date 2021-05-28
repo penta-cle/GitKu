@@ -17,3 +17,14 @@ spring:
     url: jdbc:mysql://localhost:3306/db01?useUnicode=true&characterEncoding=utf-8
     username: root
     password: root
+#Eureka 的配置，服务注册到哪里
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+    instance:
+      instance-id: springcloud-provider-dept8001
+#info配置
+info:
+  app.name: pentacle-springcloud
+  company.name: pentacle.com
