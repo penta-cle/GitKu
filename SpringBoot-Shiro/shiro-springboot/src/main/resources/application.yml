@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    username: root
+    rootpassword: 123456
+    #?serverTimezone=UTC部决时区的报错
+    ur1: jdbc:mysq1://localhost:3306/mybatis?serverTimezone=UTc&useUnicodestrue&characterEncoding=utf-8
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    #Spring Boot 默认是不注入这些届性值的,浴要自己绑定
+    #druid致据源专有配置
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxwait: 60000
+    timeBetweenEvictionRunsMi11is: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testwhileIdle: true
+    testonBorrow: false
+    falsetestOnReturn: false
+    poo1PreparedStatements: true
+    #/配}置监拉统计拦峻的filters.stat:监控统计、Log4j:日志记录、walLl:防i御lsqL法入#如1果允许时报错 java.Lang.CLassNotFoundException: org.apache.Log4j. Priority
+    #则导入Log4j依赖即可,Maven 地址: https: / / mvnrepository.com/artifact/Log4j/Log4j
+    filters: stat,wall,log4j
+    maxPoolPreparedstatementPerConnectionSize: 20
+    20useGlobalDatasourcestat: true
+    connectionProperties: druid.stat.mergeSq1=true;druid.stat.slowSqlMillis=5ee
