@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="501d8fc4-deb8-41cd-b571-346b520b2011" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tNqJ5CQY8d20DqZoLqvxivYVZa" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shiro-springboot/src/main/resources/templates/user" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.pentacle" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\GitKu\SpringBoot-Shiro\shiro-springboot\src\main\resources\templates\user" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ShiroSpringbootApplication">
+    <configuration name="Quickstart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Quickstart" />
+      <module name="Hello-Shiro" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShiroSpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shiro-springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pentacle.ShiroSpringbootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Quickstart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="501d8fc4-deb8-41cd-b571-346b520b2011" name="Default Changelist" comment="" />
+      <created>1622619821541</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622619821541</updated>
+      <workItem from="1622619822667" duration="861000" />
+      <workItem from="1622620728784" duration="3861000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="258" key="#com.intellij.ide.util.MemberChooser" timestamp="1622622798288">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="765" y="258" key="#com.intellij.ide.util.MemberChooser/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1622622798288" />
+    <state x="643" y="409" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1622622194293">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="643" y="409" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1622622194293" />
+    <state width="1879" height="343" key="GridCell.Tab.0.bottom" timestamp="1622624476589">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="343" key="GridCell.Tab.0.bottom/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1622624476589" />
+    <state width="1879" height="343" key="GridCell.Tab.0.center" timestamp="1622624476589">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="343" key="GridCell.Tab.0.center/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1622624476589" />
+    <state width="1879" height="343" key="GridCell.Tab.0.left" timestamp="1622624476589">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="343" key="GridCell.Tab.0.left/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1622624476589" />
+    <state width="1879" height="343" key="GridCell.Tab.0.right" timestamp="1622624476589">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="343" key="GridCell.Tab.0.right/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1622624476589" />
+    <state width="1879" height="278" key="GridCell.Tab.1.bottom" timestamp="1622624476360">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="278" key="GridCell.Tab.1.bottom/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1622624476360" />
+    <state width="1879" height="278" key="GridCell.Tab.1.center" timestamp="1622624476359">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="278" key="GridCell.Tab.1.center/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1622624476359" />
+    <state width="1879" height="278" key="GridCell.Tab.1.left" timestamp="1622624476359">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="278" key="GridCell.Tab.1.left/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1622624476359" />
+    <state width="1879" height="278" key="GridCell.Tab.1.right" timestamp="1622624476359">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1879" height="278" key="GridCell.Tab.1.right/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1622624476359" />
+    <state x="490" y="209" key="Maven.ArtifactSearchDialog" timestamp="1622620540530">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="490" y="209" key="Maven.ArtifactSearchDialog/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1622620540530" />
+    <state x="483" y="199" key="SettingsEditor" timestamp="1622620672243">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="483" y="199" key="SettingsEditor/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1622620672243" />
+    <state x="561" y="129" key="new project wizard" timestamp="1622622064534">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="561" y="129" key="new project wizard/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1622622064534" />
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1622624083096">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050/-1920.30.1920.1050@0.30.1920.1050" timestamp="1622624083096" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shiro-springboot/src/main/java/com/pentacle/config/ShiroConfig.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
