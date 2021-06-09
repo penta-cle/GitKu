@@ -78,3 +78,10 @@ java程序面向虚拟机，生成虚拟机能够理解的代码，随后通过�
 * **容器概念：**实际上就是一个 map （key—value），里面存的是各种对象（在xml中配置的各种 bean 节点、@repository、@service、@controller等），项目启动时会读取配置文件中的bean节点
 * **控制反转：**可以理解为一个核心控制器，需要的对象A、B全都放到IOC容器中之后，对象A不需要手动引入需要的对象B，IOC容器会主动创建所需要的对象B然后送到对象A的地方，由原本的主动引入变成了被动，所以叫做控制反转
 * 依赖注入
+
+### 14、SpringBean 的生命周期
+
+* 实例化 instantiation
+* 属性赋值 populate
+* 初始化 Initialization
+* 销毁 Destruction
